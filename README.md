@@ -18,7 +18,7 @@
 * * *
 ## Workflow diagram
 **The workflow diagram used to build the system is as follows:**
-![FlujoDeTopicsCip2.drawio.png][Workflow diagram](https://github.com/adrian9906/DataLen/blob/main/FlujoDeTopicsCip2.drawio.png?raw=true)
+![FlujoDeTopicsCip2.drawio.png] (https://github.com/adrian9906/DataLen/blob/main/FlujoDeTopicsCip2.drawio.png?raw=true)
 ---
 ### Procesar los datos
 ##### **Antes de aplicar el análisis de textos, es necesario procesar los datos utilizando técnicas de procesamiento de lenguaje natural (NLP). Esto implica la eliminación de puntuación, palabras vacías, entre otros.**
