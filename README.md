@@ -31,7 +31,7 @@
 
 ---
 ### Extracción de entidades nombradas con spaCy
-#####**La extracción de entidades nombradas es una tarea de NLP que consiste en identificar y clasificar entidades (como personas, lugares, organizaciones, etc.) en un texto. En este proyecto, se utiliza spaCy para la extracción de entidades nombradas.**
+##### **La extracción de entidades nombradas es una tarea de NLP que consiste en identificar y clasificar entidades (como personas, lugares, organizaciones, etc.) en un texto. En este proyecto, se utiliza spaCy para la extracción de entidades nombradas.**
 ---
 ### Extracción de palabras clave con PKE
 ##### **La extracción de palabras clave es una tarea de NLP que consiste en identificar las palabras más importantes en un texto. En este proyecto, se utiliza PKE para la extracción de palabras clave 5.**
