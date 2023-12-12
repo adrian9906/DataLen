@@ -1,0 +1,70 @@
+[
+  {
+    "acronym": "FBI",
+    "related_terms": ["Federal Bureau of Investigation", "Law enforcement", "Investigation", "U.S. government"]
+  },
+  {
+    "acronym": "CIA",
+    "related_terms": ["Central Intelligence Agency", "Intelligence", "U.S. government"]
+  },
+  {
+    "acronym": "NASA",
+    "related_terms": ["National Aeronautics and Space Administration", "Space exploration", "Science", "Research"]
+  },
+  {
+    "acronym": "UN",
+    "related_terms": ["United Nations", "International", "Peace", "Global issues"]
+  },
+  {
+    "acronym": "EU",
+    "related_terms": ["European Union", "Europe", "Political union", "Trade"]
+  },
+  {
+    "acronym": "WHO",
+    "related_terms": ["World Health Organization", "Health", "Global issues", "Public health"]
+  },
+  {
+    "acronym": "UNESCO",
+    "related_terms": ["United Nations Educational, Scientific and Cultural Organization", "Education", "Science", "Culture"]
+  },
+  {
+    "acronym": "NATO",
+    "related_terms": ["North Atlantic Treaty Organization", "Military alliance", "Defense"]
+  },
+  {
+    "acronym": "OPEC",
+    "related_terms": ["Organization of the Petroleum Exporting Countries", "Oil", "Energy", "Trade"]
+  },
+  {
+    "acronym": "ASEAN",
+    "related_terms": ["Association of Southeast Asian Nations", "Southeast Asia", "Economic", "Political"]
+  },
+  {
+    "acronym": "NAFTA",
+    "related_terms": ["North American Free Trade Agreement", "Trade", "North America"]
+  },
+   {
+    "acronym": "INTERPOL",
+    "related_terms": ["International Police", "International law enforcement", "Crime prevention"]
+  },
+  {
+    "acronym": "IMF",
+    "related_terms": ["International Monetary Fund", "Economic stability", "Financial assistance"]
+  },
+  {
+    "acronym": "WTO",
+    "related_terms": ["World Trade Organization", "Global trade", "Trade agreements"]
+  },
+   {
+    "acronym": "UNICEF",
+    "related_terms": ["United Nations International Children's Emergency Fund", "Children's rights", "Child welfare"]
+  },
+   {
+    "acronym": "ECB",
+    "related_terms": ["European Central Bank", "Eurozone", "Monetary policy"]
+  },
+  {
+    "acronym": "ICC",
+    "related_terms": ["International Criminal Court", "Global justice", "War crimes", "Genocide", "Crimes against humanity"]
+  }
+]
