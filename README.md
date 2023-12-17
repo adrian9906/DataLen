@@ -18,7 +18,7 @@
 * * *
 ## Workflow diagram
 **The workflow diagram used to build the system is as follows:**
-![FlujoDeTopicsCip2.drawio.png](C:\Users\Adrian\Downloads\FlujoDeTopicsCip2.drawio.png)
+![FlujoDeTopicsCip2.drawio.png](https://github.com/adrian9906/DataLen/blob/main/FlujoDeTopicsCip2.drawio.png?raw=true)
 ---
 ### Procesar los datos
 ##### **Antes de aplicar el análisis de textos, es necesario procesar los datos utilizando técnicas de procesamiento de lenguaje natural (NLP). Esto implica la eliminación de puntuación, palabras vacías, entre otros.**
@@ -27,14 +27,14 @@
 ### Modelado de tópicos con LDA
 ##### **El modelado de tópicos es una técnica de aprendizaje automático no supervisado para descubrir "tópicos" que ocurren en una colección de documentos. En este proyecto, se utiliza el algoritmo LDA para el modelado de tópicos.**
 
-![FlujoDeTopicsCip2.drawio (1).png](C:\Users\Adrian\Downloads\FlujoDeTopicsCip2.png)
+![FlujoDeTopicsCip2.drawio (1).png](https://github.com/adrian9906/DataLen/blob/main/FlujoDeTopicsCip2.png?raw=true)
 
 ---
-###Extracción de entidades nombradas con spaCy
-#####**La extracción de entidades nombradas es una tarea de NLP que consiste en identificar y clasificar entidades (como personas, lugares, organizaciones, etc.) en un texto. En este proyecto, se utiliza spaCy para la extracción de entidades nombradas.**
+### Extracción de entidades nombradas con spaCy
+##### **La extracción de entidades nombradas es una tarea de NLP que consiste en identificar y clasificar entidades (como personas, lugares, organizaciones, etc.) en un texto. En este proyecto, se utiliza spaCy para la extracción de entidades nombradas.**
 ---
-###Extracción de palabras clave con PKE
-#####**La extracción de palabras clave es una tarea de NLP que consiste en identificar las palabras más importantes en un texto. En este proyecto, se utiliza PKE para la extracción de palabras clave 5.**
+### Extracción de palabras clave con PKE
+##### **La extracción de palabras clave es una tarea de NLP que consiste en identificar las palabras más importantes en un texto. En este proyecto, se utiliza PKE para la extracción de palabras clave 5.**
 
 ***
 ### Contribución
