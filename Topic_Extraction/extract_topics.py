@@ -41,11 +41,11 @@ def topicExtractionBySimilarity(document,collection,database,wordList:list,spacy
                 topics.append(docu)
     
     for topic in topics:
-        tmp = [x[0] for x in text if topic['acronym'] in x]
+        tmp = [x[0] for x in text if topic['acronym'] in x and x[0] not in lda]
         if tmp:
             topicFinalList+= tmp
         for word in topic['related_terms']:
-            tmp2 = [x[0] for x in text if word in x]
+            tmp2 = [x[0] for x in text if word in x and x[0] not in lda]
             if tmp2:
                 topicFinalList+= tmp2
                     
