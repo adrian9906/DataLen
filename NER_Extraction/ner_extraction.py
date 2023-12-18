@@ -1,7 +1,6 @@
 
 
-def nerDetection(nlp,text):
-    doc = nlp(text)
+def nerDetection(doc):
     entities=[]
     for ent in doc.ents:
         entitie={"ner":ent.text, 

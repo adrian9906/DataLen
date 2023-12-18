@@ -2,13 +2,12 @@ from symbol import term
 import gensim.corpora as corpora
 from gensim.utils import simple_preprocess
 from gensim.models.ldamodel import LdaModel
-import spacy
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from Topic_Extraction.Processing.pre_processing import preprocess_data
 
 
-def ldaTopicExtraction(processData,nlp:spacy,wordList):
+def ldaTopicExtraction(processData,wordList):
     vectorizer = TfidfVectorizer(stop_words=[])
 
     id2word = corpora.Dictionary(processData)

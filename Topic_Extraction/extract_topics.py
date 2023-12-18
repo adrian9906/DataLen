@@ -20,7 +20,7 @@ def topicExtraction(document,collection,database):
     return lda
      
                 
-def topicExtractionBySimilarity(document,collection,database,wordList:list,spacy):
+def topicExtractionBySimilarity(document,collection,database,wordList:list):
     topics = []
     
     topicFinalList = []
@@ -31,7 +31,7 @@ def topicExtractionBySimilarity(document,collection,database,wordList:list,spacy
     
     text = preprocess_data(document, stopwords)
     
-    lda = ldaTopicExtraction(text,spacy,wordList)
+    lda = ldaTopicExtraction(text,wordList)
     
     for word in wordList:
         word=word.upper()

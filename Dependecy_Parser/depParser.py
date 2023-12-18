@@ -1,4 +1,3 @@
-import spacy
 
 def dependecy_parser(doc):
     dependecy_parserList = []
