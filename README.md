@@ -20,22 +20,25 @@
 **The workflow diagram used to build the system is as follows:**
 ![FlujoDeTopicsCip2.drawio.png](https://github.com/adrian9906/DataLen/blob/main/FlujoDeTopicsCip2.drawio.png?raw=true)
 ---
-### Procesar los datos
-##### **Antes de aplicar el análisis de textos, es necesario procesar los datos utilizando técnicas de procesamiento de lenguaje natural (NLP). Esto implica la eliminación de puntuación, palabras vacías, entre otros.**
+### Data processing
+##### **Before applying text analysis, it is necessary to process the data using natural language processing (NLP) techniques. This involves the elimination of punctuation, empty words, among others**
 - - -
 
-### Modelado de tópicos con LDA
-##### **El modelado de tópicos es una técnica de aprendizaje automático no supervisado para descubrir "tópicos" que ocurren en una colección de documentos. En este proyecto, se utiliza el algoritmo LDA para el modelado de tópicos.**
+### Topical modeling with LDA
+##### **Topic modeling is an unsupervised machine learning technique for discovering "topics" occurring in a collection of documents. In this project, the LDA algorithm is used for topic modeling.**
 
 ![FlujoDeTopicsCip2.drawio (1).png](https://github.com/adrian9906/DataLen/blob/main/FlujoDeTopicsCip2.png?raw=true)
 
 ---
-### Extracción de entidades nombradas con spaCy
-##### **La extracción de entidades nombradas es una tarea de NLP que consiste en identificar y clasificar entidades (como personas, lugares, organizaciones, etc.) en un texto. En este proyecto, se utiliza spaCy para la extracción de entidades nombradas.**
+### Named entity extraction with spaCy
+##### **Named entity extraction is an NLP task that consists of identifying and classifying entities (such as people, places, organizations, etc.) in a text. In this project, spaCy is used for named entity extraction.**
 ---
-### Extracción de palabras clave con PKE
-##### **La extracción de palabras clave es una tarea de NLP que consiste en identificar las palabras más importantes en un texto. En este proyecto, se utiliza PKE para la extracción de palabras clave 5.**
+### Keyword extraction with PKE
+##### **Keyword extraction is an NLP task that consists of identifying the most important words in a text. In this project, PKE is used for keyword extraction 5.**
+---
+### Dependecy Parser with spaCy
+##### **The dependency parsing algorithm in Spacy is based on a transition approach, which jointly learns sentence segmentation and dependency parsing with tags. This dependency parsing can learn to merge tokens that had been over-segmented by the tokenizer.**
 
 ***
-### Contribución
-*Las contribuciones a este proyecto son bienvenidas. Si encuentras un error o tienes una sugerencia de mejora, por favor abre un issue o envía un pull request.*
+### Contribution
+*Contributions to this project are welcome. If you find a bug or have a suggestion for improvement, please open an issue or send a pull request.*
