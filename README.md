@@ -18,7 +18,7 @@
 * * *
 ## Workflow diagram
 **The workflow diagram used to build the system is as follows:**
-![FlujoDeTopicsCip2.drawio.png](https://github.com/adrian9906/DataLen/blob/main/FlujoDeTopicsCip2.drawio.png?raw=true)
+![FlujoDeTopicsCip2.drawio.png](https://github.com/adrian9906/DataLen/blob/main/TopicWorkFlow.png?raw=true)
 ---
 ### Data processing
 ##### **Before applying text analysis, it is necessary to process the data using natural language processing (NLP) techniques. This involves the elimination of punctuation, empty words, among others**
@@ -27,7 +27,7 @@
 ### Topical modeling with LDA
 ##### **Topic modeling is an unsupervised machine learning technique for discovering "topics" occurring in a collection of documents. In this project, the LDA algorithm is used for topic modeling.**
 
-![FlujoDeTopicsCip2.drawio (1).png](https://github.com/adrian9906/DataLen/blob/main/FlujoDeTopicsCip2.png?raw=true)
+![FlujoDeTopicsCip2.drawio (1).png](https://github.com/adrian9906/DataLen/blob/main/NerWorkFlow?raw=true)
 
 ---
 ### Named entity extraction with spaCy
