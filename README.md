@@ -14,11 +14,7 @@
 > [!NOTE]
 > First of all you should download the corresponding spacy models, for example:
 > `python -m spacy download es_core_news_sm`
-
 * * *
-## Workflow diagram
-**The workflow diagram used to build the system is as follows:**
-![FlujoDeTopicsCip2.drawio.png](https://github.com/adrian9906/DataLen/blob/main/TopicWorkFlow.png?raw=true)
 ---
 ### Data processing
 ##### **Before applying text analysis, it is necessary to process the data using natural language processing (NLP) techniques. This involves the elimination of punctuation, empty words, among others**
@@ -26,12 +22,14 @@
 
 ### Topical modeling with LDA
 ##### **Topic modeling is an unsupervised machine learning technique for discovering "topics" occurring in a collection of documents. In this project, the LDA algorithm is used for topic modeling.**
+![TopicWorkFlow.png](https://github.com/adrian9906/DataLen/blob/main/TopicWorkFlow.png?raw=true)
 
-![FlujoDeTopicsCip2.drawio (1).png](https://github.com/adrian9906/DataLen/blob/main/NerWorkFlow?raw=true)
 
 ---
 ### Named entity extraction with spaCy
 ##### **Named entity extraction is an NLP task that consists of identifying and classifying entities (such as people, places, organizations, etc.) in a text. In this project, spaCy is used for named entity extraction.**
+![NerWorkFlow.png](https://github.com/adrian9906/DataLen/blob/main/NerWorkFlow.png?raw=true)
+
 ---
 ### Keyword extraction with PKE
 ##### **Keyword extraction is an NLP task that consists of identifying the most important words in a text. In this project, PKE is used for keyword extraction 5.**
